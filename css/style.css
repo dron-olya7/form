@@ -1,0 +1,161 @@
+/* использованы стили документации https://github.com/rtplv/airbnb-css-ru */
+
+body {
+    font-family: "SegoeUI", sans-serif;
+    background: #E1F7F6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.login {
+    padding: 80px 0;
+}
+
+.container {
+    width: 1087px;
+    margin: 0 auto;
+}
+
+.login-left, .login-right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login-left {
+    width: 496px;
+    background-color: #fff;
+    padding: 40px;
+}
+
+
+.login-left h2 {
+    font-size: 29px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 24px;
+}
+
+.login-left span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444150;
+    margin-left: 8px;
+}
+
+.login-left a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #01BAB3;
+}
+
+/* form */
+.form {
+    margin-top: 56px;
+}
+.form-inline {
+    display: inline-block;
+}
+
+.form-inline input {
+    padding: 14px 16px;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    width: 200px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444150;
+}
+
+.form-inline input:focus {
+    background-color: #FBFBFB;
+}
+
+.form-inline1 input {
+    padding: 14px 16px;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    width: 200px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444150;
+}
+
+.form-inline1 input:focus {
+    background-color: #FBFBFB;
+}
+.firstname {
+    margin-right: 11px;
+    margin-bottom: 24px;
+}
+
+.birthdate{
+    margin-bottom: 24px;
+    
+}
+
+.birthdate input[type=date]{
+    width: 100%;
+}
+
+.gender{
+    display: inline-block;
+    margin-bottom: 38px;
+}
+
+.gender input{
+    border-color: #01BAB3;
+    background: #01BAB3;
+}
+
+.skype{
+    margin-bottom: 24px;
+}
+
+.promo{
+    margin-bottom: 24px;
+}
+
+.form-inline label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #444150;
+    margin-bottom: 8px;
+}
+
+.form-inline label::after {
+    content: '*';
+    color: #01BAB3;
+}
+
+.form-inline1 label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #444150;
+    margin-bottom: 8px;
+}
+
+button{
+    background-color:#01BAB3;
+    color: #fff;
+    padding: 12px 190px 12px 151px;
+    border-radius: 10px;
+}
+
+/* end form */
+
+
+
+
+
+
+.login-right {
+    width: 425px;
+    text-align: center;
+}
+
